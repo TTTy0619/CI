@@ -8,7 +8,6 @@
 export default {
   methods: {
     handleClick() {
-      console.log('z');
       this.$emit('change');
     },
   },
