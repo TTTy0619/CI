@@ -44,23 +44,9 @@
     "vue-eslint-parser": "^8.3.0",
     "vue-template-compiler": "^2.6.14"
   },
-  "lint-staged": {
-    "src/**/*.{less,vue}": "stylelint --fix",
-    "src/**/*.{js,vue}": "eslint --fix"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  ]
 }
