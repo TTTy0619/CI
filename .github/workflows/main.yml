@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v2
         with: 
           node-version: '14'
-      - run: npm install
+      - run: npm install -g yarn
+      - run: yarn
       # Runs a set of commands using the runners shell
-      - run: npm run build 
+      - run: yarn run build 
